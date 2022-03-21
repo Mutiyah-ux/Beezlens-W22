@@ -1,0 +1,14 @@
+#body {
+    background-color: #DAF6FF;
+    font-family: Verdana, Geneva, sans-serif;
+  }
+  
+  #container {
+    border: 1px #000;
+    margin: auto;
+  }
+  
+  #content_home {
+    padding: 5px;
+    text-align: center;
+  }
