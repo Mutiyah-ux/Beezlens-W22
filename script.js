@@ -44,13 +44,20 @@ function openAbout() {
   $("#content_about").show();
 }
 
-$("#menu_contact").click(openContact);
+$("#menu_join").click(openJoin);
 
-function openContact() {
+function openJoin() {
   $(this).addClass("active");
-  $("#content_contact").siblings().hide();
-  $("#content_contact").show();
+  $("#content_join").siblings().hide();
+  $("#content_join").show();
 }
 
+$("#menu_Login").click(openLogin);
+
+function openLogin() {
+  $(this).addClass("active");
+  $("#content_login").siblings().hide();
+  $("#content_login").show();
+}
 
 $("#menu_home").click();
