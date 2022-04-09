@@ -11,3 +11,21 @@
   #content_home {
     text-align: center;
   }
+
+  footer 
+{
+    text-align: center;
+    background-color: #0D1326;
+    padding-bottom: 20px;
+}
+
+.fab 
+{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-decoration: none;
+    margin: 0 3px;
+    color: #fff;
+}
+
