@@ -1,6 +1,6 @@
 #body {
     background-color: #DAF6FF;
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 #container {
@@ -14,75 +14,76 @@
 footer {
     background: #0D1326;
     color: white;
-  }
-  
-  footer .container {
+}
+
+footer .container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 30px;
-  }
-  
-  footer .box {
+}
+
+footer .box {
     margin-top: 50px;
-  }
-  
-  footer .box i {
+}
+
+footer .box i {
     margin-right: 20px;
     font-size: 30px;
-  }
-  
-  footer h2 {
+}
+
+footer h2 {
     margin-top: 20px;
     margin-bottom: 20px;
-  }
-  
-  footer ul li {
+}
+
+footer ul li {
+    list-style-type: none;
     margin-bottom: 15px;
     opacity: 0.7;
     transition: 0.5s;
     cursor: pointer;
-  }
-  
-  footer ul li::before {
+}
+
+footer ul li::before {
     content: "\2022";
     color: #0D1326;
     font-weight: bold;
     display: inline-block;
     width: 1em;
-  }
-  
-  footer .ul {
+}
+
+footer .ul {
     margin-left: 50px;
-  }
-  
-  footer p {
+}
+
+footer p {
     margin-bottom: 20px;
     opacity: 0.7;
     line-height: 30px;
     padding-bottom: 20px;
-  }
-  
-  footer .box li:hover,
-  footer .box i:hover {
+}
+
+footer .box li:hover,
+footer .box i:hover {
     color: #10B391;
-  }
-  
-  .legal {
+}
+
+.legal {
     text-align: center;
     background: #0D1326;
     padding: 20px;
     margin: 0;
     margin-top: 50px;
     font-size: 14px;
-  }
-  
-  /*---------footer------*/
-  @media only screen and (max-width:768px) {
+}
+
+/*---------footer------*/
+@media only screen and (max-width:768px) {
     .left {
         width: 100%;
     }
-  
+
     footer .container {
         grid-template-columns: repeat(2, 1fr);
     }
-  }
+}

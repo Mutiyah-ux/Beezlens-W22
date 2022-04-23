@@ -1,15 +1,11 @@
 #body {
-  background-color: #DAF6FF;
-  font-family: Verdana, Geneva, sans-serif;
+  background-color: #FFFF;
+  font-family: 'Raleway', sans-serif;
 }
 
 #container {
   border: 1px #000;
   margin: auto;
-}
-
-#content_home {
-  text-align: center;
 }
 
 /*---------about------*/
@@ -18,77 +14,66 @@
 }
 
 #content_about {
-	width: 700px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 50px;
-	margin-bottom: 50px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-#top
-{
-	margin-bottom: 30px;
+#top {
+  margin-bottom: 30px;
 }
 
-#top h1
-{
-	font-size:32px;
-	font-weight: bold;
-	margin-bottom: 20px;
+#top h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
-#top p
-{
-	line-height: 1.4;
-	margin-bottom: 20px;
+#top p {
+  line-height: 1.4;
+  margin-bottom: 20px;
 }
 
-#top img
-{
-	width: 100%;
-	margin-bottom: 30px;
+#top img {
+  width: 100%;
+  margin-bottom: 30px;
 }
 
-div.square
-{
-	width:320px;
-	height:320px;
-	background-color: #f3f3f3;
-	display:inline-block;
-	vertical-align: top;
+div.square {
+  width: 400px;
+  height: 400px;
+  background-color: #FFFF;
+  display: inline-block;
+  vertical-align: top;
 }
 
-div.square_text
-{
-	padding:25px;
+div.square_text {
+  padding: 25px;
 }
 
-div.square.white
-{
-	background-color: #ffff;
+div.square.white {
+  background-color: #ffff;
 }
 
-div.square h2
-{
-	font-size:25px;
-	font-weight: bold;
-	margin-bottom: 15px;
+div.square h2 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 
-div.square p
-{
-	font-size:14px;
-	line-height: 1.4;
-	margin-bottom: 10px;
+div.square p {
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 10px;
 }
 
-div.square img
-{
-	width: 100%;
+div.square img {
+  width: 100%;
 }
 
-div.square
-{
+div.square {
   height: auto;
 }
 
@@ -120,6 +105,7 @@ footer h2 {
 }
 
 footer ul li {
+  list-style-type: none;
   margin-bottom: 15px;
   opacity: 0.7;
   transition: 0.5s;
@@ -162,10 +148,10 @@ footer .box i:hover {
 /*---------footer------*/
 @media only screen and (max-width:768px) {
   .left {
-      width: 100%;
+    width: 100%;
   }
 
   footer .container {
-      grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
