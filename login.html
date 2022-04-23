@@ -2,74 +2,72 @@
 <html lang="en">
 
 <head>
-    <title>Beezlens</title>
-    <!--Required meta tags-->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial scale=1">
-    <meta name="author" content="Beezles">
+  <title>Beezlens Login</title>
 
-    <!-- title_fonts --->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
- 
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Beezlens">
 
-    <!-- stylesheet --->
-    <link rel="stylesheet" href="login.css">
-    <!-- script --->
-    <script src="login.js"></script>
+  <!-- TITLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+  <!-- BEEZLENS_CONTENT SCRIPT -->
+  <script src="login.js"></script>
 
-</head>
+  <!-- BEEZLENS_CONTENT CSS -->
+  <link rel="stylesheet" href="login.css">
 
-<body>
-    <div id="container">
-        <div class="form">
-            <div class="left">
-              <h3>Welcome</h3>
-              <img src="Images/Login-Background.png" alt="Beezlens_Login_BG">
-            </div>
-            <div class="right">
-              <div class="tabs">
-                <ul>
-                  <li class="join_li">Join</li>
-                  <li class="login_li">login</li>
-                </ul>
-              </div>
-    
-              <div class="join">
-                <div class="input_field">
-                  <input type="text" class="input" autofocus placeholder="E-mail">
-                </div>
-                <div class="input_field">
-                  <input type="text" class="input" autofocus placeholder="Password">
-                </div>
-                <div class="input_field">
-                  <input type="password" class="input" autofocus placeholder="Age">
-                </div>
-                <div class="btn"><a href="#">Continue</a></div>
-              </div>
-    
-              <div class="login">
-                <div class="input_field">
-                  <input type="text" class="input" placeholder="E-mail">
-                </div>
-                <div class="input_field">
-                  <input type="password" class="input" placeholder="Password">
-                </div>
-    
-                <div class="btn"><a href="#">Continue</a></div>
-                <p class="form__text">
-                  <a href="#" class="form__link">Forgot your password?</a>
-                </p>
-              </div>
-    
-            </div>
-          </div>
-
-
+  </head>
+  <body>
+    <div class="container-fluid">
+      <form class="form" id="login">
+        <h1 class="form__title">Login</h1>
+        <div class="form__message form__message--error"></div>
+        <div class="form__input-group">
+            <input type="text" class="form__input" autofocus placeholder="Username or email">
+            <div class="form__input-error-message"></div>
+        </div>
+        <div class="form__input-group">
+            <input type="password" class="form__input" autofocus placeholder="Password">
+            <div class="form__input-error-message"></div>
+        </div>
+        <button class="form__button" type="submit">Continue</button>
+        <p class="form__text">
+            <a href="#" class="form__link">Forgot your password?</a>
+        </p>
+        <p class="form__text">
+            <a class="form__link" href="./" id="linkCreateAccount">Don't have an account? Create account</a>
+        </p>
+    </form>
+    <form class="form form--hidden" id="createAccount">
+        <h1 class="form__title">Create Account</h1>
+        <div class="form__message form__message--error"></div>
+        <div class="form__input-group">
+            <input type="text" id="signupUsername" class="form__input" autofocus placeholder="Username">
+            <div class="form__input-error-message"></div>
+        </div>
+        <div class="form__input-group">
+            <input type="text" class="form__input" autofocus placeholder="Email Address">
+            <div class="form__input-error-message"></div>
+        </div>
+        <div class="form__input-group">
+            <input type="password" class="form__input" autofocus placeholder="Password">
+            <div class="form__input-error-message"></div>
+        </div>
+        <div class="form__input-group">
+            <input type="password" class="form__input" autofocus placeholder="Confirm password">
+            <div class="form__input-error-message"></div>
+        </div>
+        <button class="form__button" type="submit">Continue</button>
+        <p class="form__text">
+            <a class="form__link" href="./" id="linkLogin">Already have an account? Sign in</a>
+        </p>
+    </form>
     </div>
+  </body>
 
 
-</body>
 
 </html>
