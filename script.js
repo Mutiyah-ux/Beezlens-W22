@@ -20,3 +20,20 @@ $(document).on("click", "ul.nav a", nav);
 
 
 $("#menu_home").click();
+
+start();
+
+function collect() {
+
+  var obj = {};
+
+  $("input[name]").each(function() {
+    var text = $(this).val();
+    var name = $(this).attr("name");
+    obj[name] = text;
+  })
+
+  var data = JSON.stringify(obj);
+  $("#json").val(data);
+
+}

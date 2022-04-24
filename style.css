@@ -8,6 +8,13 @@
   margin: auto;
 }
 
+/* brand text color*/
+#nav-link a:hover
+{
+    color: #126161;
+    text-decoration: underline;
+}
+
 /*---------about------*/
 #content_home {
   text-align: center;
@@ -78,6 +85,7 @@ div.square {
 }
 
 
+
 /*---------footer------*/
 footer {
   background: #0D1326;
@@ -138,7 +146,7 @@ footer .box i:hover {
 
 .legal {
   text-align: center;
-  background: #0D1326;
+  background: #10B391;
   padding: 20px;
   margin: 0;
   margin-top: 50px;

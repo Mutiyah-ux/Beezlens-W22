@@ -23,18 +23,16 @@ body {
   padding: 2rem;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
   border-radius: var(--border-radius);
-  background: #ffff;
+  background: #FFFF;
 }
 
 .container,
 .form__input,
 .form__button {
-  font: 500 1rem 'Quicksand', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
-.form--hidden {
-  display: none;
-}
+
 
 .form>*:first-child {
   margin-top: 0;
@@ -72,15 +70,15 @@ body {
   padding: 0.75rem;
   box-sizing: border-box;
   border-radius: var(--border-radius);
-  border: 1px solid #dddddd;
+  border: 1px solid #5D86C5;
   outline: none;
-  background: #eeeeee;
+  background: #FFFF;
   transition: background 0.2s, border-color 0.2s;
 }
 
 .form__input:focus {
   border-color: var(--color-primary);
-  background: #ffffff;
+  background: #FFFF;
 }
 
 .form__input--error {
@@ -99,7 +97,7 @@ body {
   padding: 1rem 2rem;
   font-weight: bold;
   font-size: 1.1rem;
-  color: #ffffff;
+  color: #FFFF;
   border: none;
   border-radius: var(--border-radius);
   outline: none;
